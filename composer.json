@@ -1,7 +1,7 @@
 {
-    "name": "klkvsk/json-decode-stream",
+    "name": "nono303/json-decode-stream",
     "description": "JSON streaming reader",
-    "homepage": "https://github.com/klkvsk/json-decode-stream",
+    "homepage": "https://github.com/nono303/json-decode-stream",
     "keywords": [
         "json",
         "parse",
@@ -14,6 +14,10 @@
         {
             "name": "Mikhail Kulakovskiy",
             "email": "m@klkvsk.ru"
+        },
+        {
+            "name": "nono303",
+            "role": "fork"
         }
     ],
     "minimum-stability": "stable",
