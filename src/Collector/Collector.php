@@ -24,7 +24,7 @@ class Collector implements CollectorInterface
     /** @var string[]|null[] */
     protected $keyStack = [];
 
-    public function __construct(string $selector = null, bool $objectsAsAssocArrays = false)
+    public function __construct(string|null $selector, bool $objectsAsAssocArrays = false)
     {
         $this->selector = $selector;
         $this->objectsAsAssocArrays = $objectsAsAssocArrays;
