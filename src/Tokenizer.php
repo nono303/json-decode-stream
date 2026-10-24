@@ -185,7 +185,7 @@ class Tokenizer implements IteratorAggregate
         if (preg_match_all('/^[+-]?(0|[1-9][0-9]*)$/', $number)) {
             return intval($number);
         } elseif (preg_match('/^[+-]?(0|[1-9][0-9]*)(\.[0-9]+)?([eE][-+]?([0-9]+))?$/', $number)) {
-            return doubleval($number);
+            return floatval($number);
         } else {
             throw TokenizerException::malformedNumber($number, $this->lineNumber, $this->charNumber);
         }
